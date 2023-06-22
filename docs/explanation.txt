@@ -1,0 +1,61 @@
+Design Patterns
+	- Conjunto de padrões de codificação, voltados principalmente para o mundo orientado a objetos.
+	- Separados em três grupos, como: Criacional(Creational), Estrutural(Structural) e Comportamental(Behavior).
+	- Os padrões mais conhecidos são os definidos pela Gangue dos quatros (GoF - Gang of Four).
+Padrão Criacional (Creational Pattern)
+	- Factory Method
+		- Neste padrão utilizamos uma abstração para auxiliar na criação de diversas implementações concretas de um mesmo tipo em comum.
+		- Por exemplo
+			- Uma Classe Celular.
+			- Possuí classes filhas. Que são: IPhone, Motorola, Samsung, Xiaomi e Nokia.
+			- Uma classe abstrata CelularFactory
+			- Possuí um método abstrato createCelular(): Celular.
+			- Possuí um método concreto que chama request(labelCelular: String): Celular.
+				- Cria as implementações conforme a labelCelular passada como parametro.
+			- Implementações IPhoneFactory, MotorolaFactory, SamsungFactory, XiaomiFactory e NokiaFactory.
+			- Todas as classes Factories deverão implementar o método createCelular.
+	- Abstract Method
+		- Neste padrão utilizamos uma interface para criar familias de objetos relacionados ou dependentes.
+		- Enquanto no Factory Method nós criávamos uma fábrica para cada objeto especifico. Neste padrão críamos para uma cadeia de objetos interligados.
+		- Por exemplo
+			- Uma interface LectureAbstractFactory.
+			- Possuí dois métodos abstratos, chamados: getProperties(): Properties, getAvailableRegion(): AvaliableRegion[].
+			- Possuí implementações. Que são: JavaLectureAbstractFactory, DotNetLectureAbstractFactory e KotlinLectureAbstractFactory.
+			- Todas classes derivadas de LectureAbstractFactory, devem implementar seus métodos abstratos.
+	- Singleton
+		- Neste padrão criamos uma classe para gerenciar a criação de instâncias únicas e globais.
+		- Por exemplo
+			- Uma classe Connection.
+			- Possuí um método estático chamado getInstance(): Connection.
+			- Possuí um atributo privado e final connection: Connection . Onde sua instancia é criada no momento da sua declaração.
+			- O método getInstance(): Connection é o responsável por retornar o atributo connection.
+	- Monostate
+		- Neste padrão também criamos uma classe para gerenciar a criação de instâncias únicas e globais. Porém com a diferença de que nós não críamos um método estático para retornar um atributo de classe.
+		- Este padrão nos dá a possibilidade de trabalhar com a implementação de interfaces.
+		- Por exemplo
+			- Uma interface PoolEntityManager
+			- Possuí um método abstrato chamado getInstance(): PoolEntityManager.
+			- Três classes PostgresPoolEntityManager, OraclePoolEntityManager e MySqlPostgresPoolEntityManager.
+			- Implementam a interface PoolEntityManager.
+			- Possuem uma váriavel estática poolEntitiesManager: EntityManager[].
+			- O método getInstance(): PoolEntityManager retorna o EntityManager disponível para uso.
+	- Builder
+		- Neste padrão conseguimos criar diversas representações de classes diferentes, sem criar sobrecarga de construtores.
+		- Temos dois tipos de implementação para este padrão, que são: default, fluente e functional.
+		- Por exemplo
+			- Uma classe Celular.
+				- Possuí atributos privados finais, como: String nome, String modelo, String tipoUsb, String marca, BigDecimal valor, Double taxa.
+				- Possuí um construtor que preenche todos os atributos privados.
+				- Possuí métodos de acesso getters(): <Tipo> para acessar os tipo finais.
+				- Possuí uma classe estática interna Builder.
+					- Possuí atributos protecteds, como: String nome, String modelo, String tipoUsb, String marca, BigDecimal valor, Double taxa.
+					- Possuí métodos de acesso para atribuição para cada atributo e retorna o próprio Builder (this).
+					- Possuí um método build(): Celular que retorna a construção de um celular com os atributos protegidos.
+	- Prototype
+		- Neste padrão criamos uma cópia de um objeto.
+		- Podemos utilizar o método clone(): Object do java declarado na interface Cloneable. Porém, este método faz o clone somente da maneira "shallow copy" e não "deep copy".
+		- Por exemplo
+			- Uma classe Celular.
+			- Possuí atributos privados String nome, String modelo, String tipoUsb, String marca, BigDecimal valor.
+			- Implementa Cloneable e sobrescreve o método clone(): Object.
+			- 

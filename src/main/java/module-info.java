@@ -1,0 +1,3 @@
+module java.design.patterns {
+
+}
