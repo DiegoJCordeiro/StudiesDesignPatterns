@@ -9,6 +9,7 @@
 </br>
 
 <hr>
+
 #### ***Soft Skills***
 
 | Skill                  | Categoria | Descrição |
