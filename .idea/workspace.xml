@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282d7052-9145-4927-bed3-e7fce3813f26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/structural/adapter/ExecutorAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/explanation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/explanation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/creational/builder/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/creational/monostate/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/creational/prototype/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/creational/singleton/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +104,7 @@
       <workItem from="1687201101008" duration="599000" />
       <workItem from="1687286589518" duration="4957000" />
       <workItem from="1687292526184" duration="25058000" />
-      <workItem from="1687528433711" duration="5329000" />
+      <workItem from="1687528433711" duration="5433000" />
     </task>
     <servers />
   </component>
