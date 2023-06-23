@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="282d7052-9145-4927-bed3-e7fce3813f26" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/structural/adapter/ExecutorAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/explanation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/explanation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/creational/builder/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/creational/monostate/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/creational/prototype/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/diegocordeiro/patterns/creational/singleton/package-info.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2R4NGBy5pDnrfMtJg7RgXWRaADM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Diego/Documents/Cursos_Udemy/Java/java-design-patterns/src/main/java/br/com/diegocordeiro/patterns/structural/adapter/models",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Diego\Documents\Cursos_Udemy\Java\java-design-patterns\src\main\java\br\com\diegocordeiro\patterns\structural\adapter\models" />
+      <recent name="C:\Users\Diego\Documents\Cursos_Udemy\Java\java-design-patterns\src\main\java\br\com\diegocordeiro\patterns\creational\abstractfactory\models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.diegocordeiro.patterns.creational.prototype.models" />
+      <recent name="br.com.diegocordeiro.patterns.creational.monostate.models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.diegocordeiro.Application" />
+      <module name="java-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.diegocordeiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="282d7052-9145-4927-bed3-e7fce3813f26" name="Changes" comment="" />
+      <created>1686505297255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686505297255</updated>
+      <workItem from="1686505298513" duration="1014000" />
+      <workItem from="1686674629902" duration="614000" />
+      <workItem from="1686746221150" duration="303000" />
+      <workItem from="1686834218296" duration="1207000" />
+      <workItem from="1686921656111" duration="1918000" />
+      <workItem from="1686931489404" duration="1210000" />
+      <workItem from="1687181390459" duration="1197000" />
+      <workItem from="1687201101008" duration="599000" />
+      <workItem from="1687286589518" duration="4957000" />
+      <workItem from="1687292526184" duration="25058000" />
+      <workItem from="1687528433711" duration="5329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

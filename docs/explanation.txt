@@ -3,20 +3,21 @@ Design Patterns
 	- Separados em três grupos, como: Criacional(Creational), Estrutural(Structural) e Comportamental(Behavior).
 	- Os padrões mais conhecidos são os definidos pela Gangue dos quatros (GoF - Gang of Four).
 Padrão Criacional (Creational Pattern)
+	- O padrões da categoria criacional (creational) são relacionados a forma como criamos os objetos.
 	- Factory Method
 		- Neste padrão utilizamos uma abstração para auxiliar na criação de diversas implementações concretas de um mesmo tipo em comum.
 		- Por exemplo
 			- Uma Classe Celular.
 			- Possuí classes filhas. Que são: IPhone, Motorola, Samsung, Xiaomi e Nokia.
 			- Uma classe abstrata CelularFactory
-			- Possuí um método abstrato createCelular(): Celular.
+			- Possuí um método estático create(): Celular.
 			- Possuí um método concreto que chama request(labelCelular: String): Celular.
 				- Cria as implementações conforme a labelCelular passada como parametro.
 			- Implementações IPhoneFactory, MotorolaFactory, SamsungFactory, XiaomiFactory e NokiaFactory.
 			- Todas as classes Factories deverão implementar o método createCelular.
 	- Abstract Method
 		- Neste padrão utilizamos uma interface para criar familias de objetos relacionados ou dependentes.
-		- Enquanto no Factory Method nós criávamos uma fábrica para cada objeto especifico. Neste padrão críamos para uma cadeia de objetos interligados.
+		- Enquanto no Factory Method nós criávamos uma fábrica para cada objeto especifico. Neste padrão, críamos para uma cadeia de objetos interligados.
 		- Por exemplo
 			- Uma interface LectureAbstractFactory.
 			- Possuí dois métodos abstratos, chamados: getProperties(): Properties, getAvailableRegion(): AvaliableRegion[].
@@ -58,4 +59,10 @@ Padrão Criacional (Creational Pattern)
 			- Uma classe Celular.
 			- Possuí atributos privados String nome, String modelo, String tipoUsb, String marca, BigDecimal valor.
 			- Implementa Cloneable e sobrescreve o método clone(): Object.
+
+Padrão Estrutural (Structural Pattern)
+	- O padrões da categoria estrutural (structural) são relacionados a forma como relacionamos os objetos ou as classes.
+	- Adapter
+		- Neste padrão criamos um adapter para que duas classes divergentes consigam se comunicar sem qualquer dificuldade.
+		- Por exermplo
 			- 

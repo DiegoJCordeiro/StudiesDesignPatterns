@@ -1,1 +1,0 @@
-package br.com.diegocordeiro.patterns.creational.monostate;
