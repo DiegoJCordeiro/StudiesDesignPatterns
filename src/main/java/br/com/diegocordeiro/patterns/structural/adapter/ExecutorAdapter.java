@@ -6,6 +6,5 @@ public class ExecutorAdapter implements ExecutorPatterns {
 
     @Override
     public void execute() {
-
     }
 }
