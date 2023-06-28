@@ -7,6 +7,7 @@ import br.com.diegocordeiro.patterns.creational.factorymethod.ExecutorFactoryMet
 import br.com.diegocordeiro.patterns.creational.monostate.ExecutorMonoState;
 import br.com.diegocordeiro.patterns.creational.prototype.ExecutorPrototype;
 import br.com.diegocordeiro.patterns.creational.singleton.ExecutorSingleton;
+import br.com.diegocordeiro.patterns.structural.adapter.ExecutorAdapter;
 
 /**
  * Hello world!
@@ -43,5 +44,10 @@ public class Application
 
         ExecutorPatterns executorPrototype = new ExecutorPrototype();
         executorPrototype.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorAdapter = new ExecutorAdapter();
+        executorAdapter.execute();
     }
 }

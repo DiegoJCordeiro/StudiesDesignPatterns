@@ -12,7 +12,39 @@
 - Versão: 17+
 
 </br>
+
 <hr>
+
+#### ***Como executar***
+
+*Através do terminal, entre no diretório do projeto após baixá-lo.*
+
+```bash
+cd java-design-patterns
+```
+
+*Execute o comando mvn clean (**Maven**) para limpar o build do projeto e mvn install instala-lo.*
+
+``` bash
+mvn clean install
+```
+
+*Após executar os comando anteriores, abra a pasta target, conforme o comando a seguir.*
+
+``` 
+cd target
+```
+
+*Para finalizar, agora execute o comando java (**Java Development Kit**) para executar a aplicação.*
+
+``` bash
+java -jar java-design-patterns-1.0-SNAPSHOT.jar
+```
+
+</br>
+
+<hr>
+
 
 #### **Descrição**
 

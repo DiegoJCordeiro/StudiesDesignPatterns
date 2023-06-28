@@ -64,5 +64,19 @@ Padrão Estrutural (Structural Pattern)
 	- O padrões da categoria estrutural (structural) são relacionados a forma como relacionamos os objetos ou as classes.
 	- Adapter
 		- Neste padrão criamos um adapter para que duas classes divergentes consigam se comunicar sem qualquer dificuldade.
-		- Por exermplo
-			- 
+		- Temos um Padrão Arquitetural chamado Hexagonal que utiliza muito este padrão.
+		- Por exemplo
+			- Uma interface AmericanConnector.
+				- Possui métodos isBiVoltage(): boolean e getVoltage(): String.
+			- Uma classe Charger.
+				- Possui atributos boolean biVoltage, String voltage.
+				- Possui classes filhas AmericanCharger, EuropeanCharger e AsianCharger.
+			- Uma classe AmericanCharger.
+				- Implementa a interface AmericanConnector.
+			- Uma classe EuropeanChargerToAmericanConnectorAdapter.
+				- Possui um atributo EuropeanCharger.
+					= É recebido como parametro no construtor e assim populado.
+				- Implementa a interface AmericanConnector.
+			- Uma classe ElectricalOutlet.
+				- Possui atributos String voltage e boolean inUse.
+				- Possui um método connect(AmericanCharger): void.

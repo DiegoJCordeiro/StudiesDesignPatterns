@@ -61,6 +61,17 @@
 
 ---
 
+| Recurso                                                      | Nível    | Descrição                                                 | Link                                                         |
+| ------------------------------------------------------------ | -------- | --------------------------------------------------------- | ------------------------------------------------------------ |
+| ***structural/adapter/ExecutorAdapter.java***                | Avançado | Classe cliente que executará o exemplo do padrão Adapter. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/adapter/ExecutorAdapter.java) |
+| ***structural/adapter/models***                              |          | Pacote que contém os POJOS para utilização dos exemplos.  | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/adapter/models) |
+| ***structural/adapter/AmericanConnector.java***              | Avançado | Interface que deverá ser implementada pelos adaptadores.  | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/adapter/AmericanConnector.java) |
+| ***structural/adapter/EuropeanChargerToAmericanConnectorAdapter.java*** | Avançado | Classe que implementa a interface Connector.              | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/adapter/EuropeanChargerToAmericanConnectorAdapter.java) |
+
+</br>
+
+**Padrões Comportamentais**
+
 | Recurso                                       | Nível    | Descrição                                                 | Link                                                         |
 | --------------------------------------------- | -------- | --------------------------------------------------------- | ------------------------------------------------------------ |
 | ***structural/adapter/ExecutorAdapter.java*** | Avançado | Classe cliente que executará o exemplo do padrão Adapter. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/ExecutorAbstractFactory.java) |
