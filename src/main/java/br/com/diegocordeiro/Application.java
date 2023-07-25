@@ -8,11 +8,13 @@ import br.com.diegocordeiro.patterns.creational.monostate.ExecutorMonoState;
 import br.com.diegocordeiro.patterns.creational.prototype.ExecutorPrototype;
 import br.com.diegocordeiro.patterns.creational.singleton.ExecutorSingleton;
 import br.com.diegocordeiro.patterns.structural.adapter.ExecutorAdapter;
+import br.com.diegocordeiro.patterns.structural.bridge.ExecutorBridge;
+import br.com.diegocordeiro.patterns.structural.composite.ExecutorComposite;
+import br.com.diegocordeiro.patterns.structural.decorator.ExecutorDecorator;
+import br.com.diegocordeiro.patterns.structural.facade.ExecutorFacade;
+import br.com.diegocordeiro.patterns.structural.flyweight.ExecutorFlyWeight;
+import br.com.diegocordeiro.patterns.structural.proxy.ExecutorProxy;
 
-/**
- * Hello world!
- *
- */
 public class Application
 {
     public static void main( String[] args )
@@ -49,5 +51,35 @@ public class Application
 
         ExecutorPatterns executorAdapter = new ExecutorAdapter();
         executorAdapter.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorBridge = new ExecutorBridge();
+        executorBridge.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorComposite = new ExecutorComposite();
+        executorComposite.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorDecorator = new ExecutorDecorator();
+        executorDecorator.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorFacade = new ExecutorFacade();
+        executorFacade.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorFlyWeight = new ExecutorFlyWeight();
+        executorFlyWeight.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorProxy = new ExecutorProxy();
+        executorProxy.execute();
     }
 }

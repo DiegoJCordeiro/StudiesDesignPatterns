@@ -1,6 +1,7 @@
 package br.com.diegocordeiro.patterns.structural.adapter;
 
 import br.com.diegocordeiro.patterns.ExecutorPatterns;
+import br.com.diegocordeiro.patterns.structural.adapter.adapters.EuropeanChargerToAmericanConnectorAdapter;
 import br.com.diegocordeiro.patterns.structural.adapter.models.AmericanCharger;
 import br.com.diegocordeiro.patterns.structural.adapter.models.ElectricalOutlet;
 import br.com.diegocordeiro.patterns.structural.adapter.models.EuropeanCharger;

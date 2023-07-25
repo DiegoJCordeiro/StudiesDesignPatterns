@@ -1,4 +1,4 @@
-package br.com.diegocordeiro.patterns.structural.adapter;
+package br.com.diegocordeiro.patterns.structural.adapter.adapters;
 
 public interface AmericanConnector {
 

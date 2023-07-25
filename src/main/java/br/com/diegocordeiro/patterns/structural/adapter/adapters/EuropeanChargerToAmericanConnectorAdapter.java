@@ -1,4 +1,4 @@
-package br.com.diegocordeiro.patterns.structural.adapter;
+package br.com.diegocordeiro.patterns.structural.adapter.adapters;
 
 import br.com.diegocordeiro.patterns.structural.adapter.models.EuropeanCharger;
 

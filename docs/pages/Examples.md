@@ -31,29 +31,11 @@
 | Recurso                                                      | Nível    | Descrição                                                    | Link                                                         |
 | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ***creational/abstractfactory/ExecutorAbstractFactory.java*** | Avançado | Classe cliente que executará o exemplo do Padrão Abstract Factory. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/ExecutorAbstractFactory.java) |
-| ***creational/abstractfactory/IPhoneInformationFactory.java*** | Avançado | Classe fabricadora das informações do Iphone.                | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/IPhoneInformationFactory.java) |
-| ***creational/abstractfactory/MotorolaInformationFactory.java*** | Avançado | Classe fabricadora das informações do Motorola.              | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/MotorolaInformationFactory.java) |
-| ***creational/abstractfactory/NokiaInformationFactory.java*** | Avançado | Classe fabricadora das informações do Nokia.                 | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/NokiaInformationFactory.java) |
-| ***creational/abstractfactory/SamsungInformationFactory.java*** | Avançado | Classe fabricadora das informações do Samsung.               | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/SamsungInformationFactory.java) |
-| ***creational/abstractfactory/XiaomiInformationFactory.java*** | Avançado | Classe fabricadora das informações do Xiaomi.                | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/XiaomiInformationFactory.java) |
-| ***creational/abstractfactory/PhoneInformationFactory.java*** | Avançado | Interface que define o contrato para a fabrica dos telefones. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/PhoneInformationFactory.java) |
-| ***creational/abstractfactory/models***                      |          | Pacote que contém os POJOS para utilização dos exemplos.     | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/models) |
 | ***creational/builder/ExecutorBuilder.java***                | Avançado | Classe cliente que executará o exemplo do padrão Builder.    | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/builder/ExecutorBuilder.java) |
-| ***creational/builder/models***                              |          | Pacote que contém os POJOS para utilização dos exemplos.     | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/builder/models) |
 | ***creational/factorymethod/ExecutorFactoryMethod.java***    | Avançado | Classe cliente que executará o exemplo do padrão Factory Method. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/factorymethod/ExecutorFactoryMethod.java) |
-| ***creational/factorymethod/IPhoneFactoryMethod.java***      | Avançado | Classe com método criador de Iphone.                         | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/factorymethod/IPhoneFactoryMethod.java) |
-| ***creational/factorymethod/MotorolaFactoryMethod.java***    | Avançado | Classe com método criador  de Motorola.                      | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/factorymethod/MotorolaFactoryMethod.java*) |
-| ***creational/factorymethod/NokiaFactoryMethod.java***       | Avançado | Classe com método criador  de Nokia.                         | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/factorymethod/NokiaFactoryMethod.java) |
-| ***creational/factorymethod/SamsungFactoryMethod.java***     | Avançado | Classe com método criador  de Samsung.                       | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/factorymethod/SamsungFactoryMethod.java) |
-| ***creational/factorymethod/XiaomiFactoryMethod.java***      | Avançado | Classe com método criador de Xiaomi.                         | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/factorymethod/XiaomiFactoryMethod.java) |
-| ***creational/factorymethod/PhoneFactoryMethod.java***       | Avançado | Classe abstrata que possuí o método fabricador de telefones. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/factorymethod/PhoneFactoryMethod.java) |
-| ***creational/factorymethod/models***                        |          | Pacote que contém os POJOS para utilização dos exemplos.     | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/factorymethod/models) |
 | ***creational/monostate/ExecutorMonoState.java***            | Avançado | Classe cliente que executará o exemplo do Padrão Mono State. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/monostate/ExecutorMonoState.java) |
-| ***creational/monostate/models***                            |          | Pacote que contém os POJOS para utilização dos exemplos.     | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/monostate/models) |
 | ***creational/prototype/ExecutorPrototype.java***            | Avançado | Classe cliente que executará o exemplo do Padrão Prototype.  | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/prototype/ExecutorPrototype.java) |
-| ***creational/prototype/models***                            |          | Pacote que contém os POJOS para utilização dos exemplos.     | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/prototype/models) |
 | ***creational/singleton/ExecutorSingleton.java***            | Avançado | Classe cliente que executará o exemplo do Padrão Singleton.  | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/singleton/ExecutorSingleton.java) |
-| ***creational/singleton/models***                            |          | Pacote que contém os POJOS para utilização dos exemplos.     | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/singleton/models) |
 
 </br>
 
@@ -61,12 +43,15 @@
 
 ---
 
-| Recurso                                                      | Nível    | Descrição                                                 | Link                                                         |
-| ------------------------------------------------------------ | -------- | --------------------------------------------------------- | ------------------------------------------------------------ |
-| ***structural/adapter/ExecutorAdapter.java***                | Avançado | Classe cliente que executará o exemplo do padrão Adapter. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/adapter/ExecutorAdapter.java) |
-| ***structural/adapter/models***                              |          | Pacote que contém os POJOS para utilização dos exemplos.  | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/adapter/models) |
-| ***structural/adapter/AmericanConnector.java***              | Avançado | Interface que deverá ser implementada pelos adaptadores.  | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/adapter/AmericanConnector.java) |
-| ***structural/adapter/EuropeanChargerToAmericanConnectorAdapter.java*** | Avançado | Classe que implementa a interface Connector.              | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/adapter/EuropeanChargerToAmericanConnectorAdapter.java) |
+| Recurso                                           | Nível    | Descrição                                                   | Link                                                         |
+| ------------------------------------------------- | -------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
+| ***structural/adapter/ExecutorAdapter.java***     | Avançado | Classe cliente que executará o exemplo do padrão Adapter.   | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/adapter/ExecutorAdapter.java) |
+| ***structural/bridge/ExecutorBridge.java***       | Avançado | Classe cliente que executará o exemplo do padrão Bridge.    | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/bridge/ExecutorBridge.java) |
+| ***structural/composite/ExecutorComposite.java*** | Avançado | Classe cliente que executará o exemplo do padrão Composite. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/composite/ExecutorComposite.java) |
+| ***structural/decorator/ExecutorDecorator.java*** | Avançado | Classe cliente que executará o exemplo do padrão Decorator. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/decorator/ExecutorDecorator.java) |
+| ***structural/facade/ExecutorFacade.java***       | Avançado | Classe cliente que executará o exemplo do padrão Facade.    | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/facade/ExecutorFacade.java) |
+| ***structural/flyweight/ExecutorFlyWeight.java*** | Avançado | Classe cliente que executará o exemplo do padrão FlyWeight. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/flyweight/ExecutorFlyWeight.java) |
+| ***structural/proxy/ExecutorProxy.java***         | Avançado | Classe cliente que executará o exemplo do padrão Proxy.     | [Link](../../src/main/java/br/com/diegocordeiro/patterns/structural/proxy/ExecutorProxy.java) |
 
 </br>
 

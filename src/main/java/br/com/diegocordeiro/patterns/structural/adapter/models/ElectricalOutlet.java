@@ -1,6 +1,6 @@
 package br.com.diegocordeiro.patterns.structural.adapter.models;
 
-import br.com.diegocordeiro.patterns.structural.adapter.AmericanConnector;
+import br.com.diegocordeiro.patterns.structural.adapter.adapters.AmericanConnector;
 
 public class ElectricalOutlet {
 

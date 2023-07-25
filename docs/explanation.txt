@@ -2,6 +2,7 @@ Design Patterns
 	- Conjunto de padrões de codificação, voltados principalmente para o mundo orientado a objetos.
 	- Separados em três grupos, como: Criacional(Creational), Estrutural(Structural) e Comportamental(Behavior).
 	- Os padrões mais conhecidos são os definidos pela Gangue dos quatros (GoF - Gang of Four).
+
 Padrão Criacional (Creational Pattern)
 	- O padrões da categoria criacional (creational) são relacionados a forma como criamos os objetos.
 	- Factory Method
@@ -80,3 +81,95 @@ Padrão Estrutural (Structural Pattern)
 			- Uma classe ElectricalOutlet.
 				- Possui atributos String voltage e boolean inUse.
 				- Possui um método connect(AmericanCharger): void.
+	- Bridge
+		- Neste padrão conseguimos fazer a comunicação dentre estruturas de dominio diferentes através do conceito de pontes.
+		- São criadas abstrações/interfaces. Onde a comunicação é realizada entre elas e não através de classes concretas.
+		- Por exemplo
+			- Uma interface Service.
+				- Possui implementações nas classes PhoneService, SupportService e EmailService.
+			- Uma interface Controller.
+				- Possui implementações nas classes PhoneController, SupportController e EmailController.
+				- Possui um construtor
+					- Recebe Service como parametro.
+				- Possui métodos que invocam métodos da interface service.
+				- Não conhece as implementações concretas da interface Service.
+	- Composite
+		- Neste padrão conseguimos fazer a utilização da recursividade.
+		- São criadas classes que utilizam do conceito parte/todo. Onde temos uma classe abstrata pai e algumas estruturas filhas.
+		- As estruturas filhas podem se compor referenciando seu pai.
+		- Por exemplo
+			- Uma classe abstrata FileSystemItem
+				- Possui atributo nameÇ String.
+				- Declara o método save(FileSystemItem): boolean.
+			- Uma classe FileItem
+				- Estende a classe FileSystemItem.
+				- Implementa o método save(String): boolean.
+					- Salva o nome do arquivo.
+			- Uma classe FolderItem
+				- Possuì um atributo chamado List<FileSystemItem> child.
+				- Estende a classe FileSystemItem.
+				- Implementa o método save(String): boolean.
+					- Adiciona FileSystemItem a lista de child.
+	- Decorator
+		- Neste padrão nós conseguimos utilizar uma alternativa a herança. Fazendo com que consigamos incrementar funcionalidades novas sem qualquer problema de forte acoplamento.
+		- Por exemplo
+			- Uma interface Payment
+				- Possui declaração do método transfer(value: BigDecimal, accountSource: AccountBank, accountTarget: AccountBank): boolean
+			- Uma classe PIX
+				- Implementa a interface Payment e seus métodos
+			- Uma classe DOC
+				- Implementa a interface Payment e seus métodos
+			- Uma classe TED
+				- Implementa a interface Payment e seus métodos
+			- Uma classe AccountBank
+				- Possui atributo account: String, agency: String e owner: String
+			- Uma Classe TransferService
+				- Possui o método transfer(accountSource: AccountBank, accountTarget: AccountBank, value: BigDecimal): boolean
+					- Invoca o executePayment(payment: Payment): boolean
+				- Possui o metodo executePayment(payment: Payment): boolean
+	- Facade
+		- Neste padrão nós conseguimos utilizar uma questão de fachada, ou seja, criamos abstração do que deve ser chamado pelo cliente.
+		- Por exemplo
+			- Uma interface ServiceFacade
+				- Possui declaração do método create(Object: object) boolean
+			- Uma classe ServiceFacadeImpl
+				- Implementa a interface ServiceFacade.
+	- FlyWeight
+		- Neste padrão nós conseguimos classificar dados de um objeto como importate e não importante.
+		- Extrinseco
+			- É o dado que pode ser manipulado externamente, de forma que, ele consiga ser totalmente mutável.
+		- Intriseco
+			- É o dado que pode ser manipulado internamente, de forma que, ele deve ser imutável.
+		- Por exemplo
+			- Uma classe PersonFlyWeight
+				- Possui atributos imutaveis.
+				- idade: Integer
+		 		- cpf: String
+				- rg: String
+			- Uma classe Person
+				- Possui atributos mutáveis.
+				- nome: String
+				- genero: String
+				- personFlyweight: PersonFlyWeight
+	- Proxy
+		- Neste padrão críamos um intermediário de requisições por exemplo Classe1 -> chama -> Proxy -> faz tratativa -> e chama -> Classe2.
+		- Tipos
+			- Remote, Virtual, Protection e Smart.
+		- Por exemplo
+			- Uma interface Operations
+				- Possui métodos
+					- deposit(account: String, value: BigDecimal): boolean
+					- transfer(accountSource: String, accountTarget: String, value: BigDecimal): boolean
+					- grab(account: String, value: BigDecimal): boolean
+			- Uma classe Bank
+				- Implementa a interface Operations.
+			- Uma classe ATMProxy
+				- Possui um atributo bank: Bank
+				- Possui um método construtor ATMProxy(bank: Bank): void
+				- Implementa Operations.
+				- Dentro dos métodos implementados faz as devidas tratativas e delega para o atributo bank as devidas execuções.
+
+Padrão Comportamental (Behavior Pattern)
+	- O padrões da categoria comportamental (behavior) são relacionados a forma como críamos as regras de execução do nosso algoritmo.
+	- Chain of Responsability
+		- 

@@ -18,4 +18,5 @@ open module java.design.patterns {
 
     exports br.com.diegocordeiro.patterns.structural.adapter.models;
     exports br.com.diegocordeiro.patterns.structural.adapter;
+    exports br.com.diegocordeiro.patterns.structural.adapter.adapters;
 }
