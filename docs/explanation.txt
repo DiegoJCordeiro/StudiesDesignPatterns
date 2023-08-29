@@ -1,4 +1,4 @@
-Design Patterns
+                                                                                                                                                                                                                                                                                                                                                                                             Design Patterns
 	- Conjunto de padrões de codificação, voltados principalmente para o mundo orientado a objetos.
 	- Separados em três grupos, como: Criacional(Creational), Estrutural(Structural) e Comportamental(Behavior).
 	- Os padrões mais conhecidos são os definidos pela Gangue dos quatros (GoF - Gang of Four).
@@ -172,4 +172,38 @@ Padrão Estrutural (Structural Pattern)
 Padrão Comportamental (Behavior Pattern)
 	- O padrões da categoria comportamental (behavior) são relacionados a forma como críamos as regras de execução do nosso algoritmo.
 	- Chain of Responsability
-		- 
+		- Neste padrão críamos uma cadeia de comportamentos, onde uma invoca a outra para execução de uma determinada regra.
+		- Por exemplo
+			- Uma classe abstrata ChainResponsibility
+				- Possuí variável
+					- chainResponsibility: ChainResponsibility
+				- Possuí métodos
+					- addNextResponsibility(chainResponsibility: ChainResponsibility): void
+					- abstract executeResponsibility(phoneNumber: String): boolean
+			- Uma classe ValidateDDD
+				- Herda ChainResponsibility
+				- Implementa o método executeResponsibility(phoneNumber: String): boolean
+			- Uma classe ValidateCountry
+				- Herda ChainResponsibility
+				- Implementa o método executeResponsibility(phoneNumber: String): boolean
+			- Uma classe ValidateNumber
+				- Herda ChainResponsibility
+				- Implementa o método executeResponsibility(phoneNumber: String): boolean
+	- Memento
+		- Neste padrão críamos um fluxo para guardar os estados de uma determinada estrutura.
+		- Por exemplo
+			- 
+	- Commmand
+		- Neste padrão críamos classes responsáveis pela execução de comandos, seja requisições, criação de tabelas e afins.
+		- Toda classe Command deve ter um método para fazer e desfazer algum comando executado.
+		- Por exemplo
+			- 
+	-Iterator
+		- Neste padrão críamos uma forma de iterar sobre valores/objetos.
+		- Por exemplo
+			- 
+	- Mediator
+		- Neste Padrão críamos uma classe responsável por mediar a iteração entre objetos que não se comunicam.
+		- Por exemplo
+			- 
+	

@@ -19,6 +19,7 @@
 | Trabalho em equipe     | -         | -         |
 | Adaptabilidade         | -         | -         |
 | Pró Atividade          | -         | -         |
+| Comunicação            | -         | -         |
 
 ---
 

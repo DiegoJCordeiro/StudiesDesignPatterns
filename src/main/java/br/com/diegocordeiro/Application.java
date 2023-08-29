@@ -1,6 +1,14 @@
 package br.com.diegocordeiro;
 
 import br.com.diegocordeiro.patterns.ExecutorPatterns;
+import br.com.diegocordeiro.patterns.behavior.chain.ExecutorChainOfResponsibility;
+import br.com.diegocordeiro.patterns.behavior.command.ExecutorCommand;
+import br.com.diegocordeiro.patterns.behavior.iterator.ExecutorIterator;
+import br.com.diegocordeiro.patterns.behavior.mediator.ExecutorMediator;
+import br.com.diegocordeiro.patterns.behavior.memento.ExecutorMemento;
+import br.com.diegocordeiro.patterns.behavior.observer.ExecutorObserver;
+import br.com.diegocordeiro.patterns.behavior.state.ExecutorState;
+import br.com.diegocordeiro.patterns.behavior.strategy.ExecutorStrategy;
 import br.com.diegocordeiro.patterns.creational.abstractfactory.ExecutorAbstractFactory;
 import br.com.diegocordeiro.patterns.creational.builder.ExecutorBuilder;
 import br.com.diegocordeiro.patterns.creational.factorymethod.ExecutorFactoryMethod;
@@ -19,6 +27,9 @@ public class Application
 {
     public static void main( String[] args )
     {
+
+        // Starting - Creation Patterns
+
         ExecutorPatterns executorFactoryMethod = new ExecutorFactoryMethod();
         executorFactoryMethod.execute();
 
@@ -41,6 +52,10 @@ public class Application
 
         ExecutorPatterns executorMonoState = new ExecutorMonoState();
         executorMonoState.execute();
+
+        // Ending - Creation Patterns
+
+        // Starting - Structural Patterns
 
         System.out.println("   ");
 
@@ -81,5 +96,51 @@ public class Application
 
         ExecutorPatterns executorProxy = new ExecutorProxy();
         executorProxy.execute();
+
+        // Ending - Structural Patterns
+
+        // Starting - Behavior Patterns
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorChainOfResponsibility = new ExecutorChainOfResponsibility();
+        executorChainOfResponsibility.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorMemento = new ExecutorMemento();
+        executorMemento.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorCommand = new ExecutorCommand();
+        executorCommand.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorMediator = new ExecutorMediator();
+        executorMediator.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorObserver = new ExecutorObserver();
+        executorObserver.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorStrategy = new ExecutorStrategy();
+        executorStrategy.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorState = new ExecutorState();
+        executorState.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorIterator = new ExecutorIterator();
+        executorIterator.execute();
+
+        // Ending - Behavior Patterns
     }
 }
