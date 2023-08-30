@@ -9,6 +9,7 @@ import br.com.diegocordeiro.patterns.behavior.memento.ExecutorMemento;
 import br.com.diegocordeiro.patterns.behavior.observer.ExecutorObserver;
 import br.com.diegocordeiro.patterns.behavior.state.ExecutorState;
 import br.com.diegocordeiro.patterns.behavior.strategy.ExecutorStrategy;
+import br.com.diegocordeiro.patterns.behavior.template.ExecutorTemplateMethod;
 import br.com.diegocordeiro.patterns.creational.abstractfactory.ExecutorAbstractFactory;
 import br.com.diegocordeiro.patterns.creational.builder.ExecutorBuilder;
 import br.com.diegocordeiro.patterns.creational.factorymethod.ExecutorFactoryMethod;
@@ -140,6 +141,11 @@ public class Application
 
         ExecutorPatterns executorIterator = new ExecutorIterator();
         executorIterator.execute();
+
+        System.out.println("   ");
+
+        ExecutorPatterns executorTemplateMethod = new ExecutorTemplateMethod();
+        executorTemplateMethod.execute();
 
         // Ending - Behavior Patterns
     }

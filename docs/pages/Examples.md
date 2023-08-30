@@ -59,15 +59,15 @@
 
 | Recurso                                                 | Nível    | Descrição                                                    | Link                                                         |
 | ------------------------------------------------------- | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ***behavior/chain/ExecutorChainOfResponsibility.java*** | Avançado | Classe cliente que executará o exemplo do padrão Chain of Responsibility. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/creational/abstractfactory/ExecutorAbstractFactory.java) |
+| ***behavior/chain/ExecutorChainOfResponsibility.java*** | Avançado | Classe cliente que executará o exemplo do padrão Chain of Responsibility. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/chain/ExecutorChainOfResponsibility.java) |
 | ***behavior/memento/ExecutorMemento.java***             | Avançado | Classe cliente que executará o exemplo do padrão Memento.    | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/memento/ExecutorMemento.java) |
-| ***behavior/command/ExecutorCommand.java***             | Avançado | Classe cliente que executará o exemplo do padrão Command.    | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/memento/ExecutorCommand.java) |
-| ***behavior/mediator/ExecutorMediator.java***           | Avançado | Classe cliente que executará o exemplo do padrão Mediator.   | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/memento/ExecutorMediator.java) |
-| ***behavior/observer/ExecutorObserver.java***           | Avançado | Classe cliente que executará o exemplo do padrão Observer.   | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/memento/ExecutorObserver.java) |
-| ***behavior/strategy/ExecutorStrategy.java***           | Avançado | Classe cliente que executará o exemplo do padrão Strategy.   | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/memento/ExecutorStrategy.java) |
+| ***behavior/command/ExecutorCommand.java***             | Avançado | Classe cliente que executará o exemplo do padrão Command.    | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/command/ExecutorCommand.java) |
+| ***behavior/mediator/ExecutorMediator.java***           | Avançado | Classe cliente que executará o exemplo do padrão Mediator.   | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/mediator/ExecutorMediator.java) |
+| ***behavior/observer/ExecutorObserver.java***           | Avançado | Classe cliente que executará o exemplo do padrão Observer.   | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/observer/ExecutorObserver.java) |
+| ***behavior/strategy/ExecutorStrategy.java***           | Avançado | Classe cliente que executará o exemplo do padrão Strategy.   | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/strategy/ExecutorStrategy.java) |
 | ***behavior/state/ExecutorState.java***                 | Avançado | Classe cliente que executará o exemplo do padrão State.      | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/state/ExecutorState.java) |
-| ***behavior/iterator/ExecutorIterator.java***           | Avançado | Classe cliente que executará o exemplo do padrão Iterator.   |                                                              |
-|                                                         |          |                                                              |                                                              |
+| ***behavior/iterator/ExecutorIterator.java***           | Avançado | Classe cliente que executará o exemplo do padrão Iterator.   | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/iterator/ExecutorIterator.java) |
+| ***behavior/template/ExecutorTemplateMethod.java***     | Avançado | Classe cliente que executará o exemplo do padrão Template Method. | [Link](../../src/main/java/br/com/diegocordeiro/patterns/behavior/template/ExecutorTemplateMethod.java) |
 
 <hr>
 
